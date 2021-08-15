@@ -1,11 +1,35 @@
 # server-deployment-practice
 
-How do I install the app or library?
-npm i express 
-npm i dotenv
-npm init --y
-How do I test the app or library?
-by use describ method
-For Applications:
-How do I run the app?
-nodemon
+LAB - class01
+
+Deployment Test
+
+Author: Suad Talafha
+
+[test](https://github.com/suadtalafha/server-deployment-practice/actions)
+
+[front-end](https://yourname-server-deploy-dev1.herokuapp.com/)
+
+
+Setup
+
+.env jest express
+
+PORT - 5000
+
+Running the app
+
+npm start
+
+Endpoint: /status
+
+Returns Object
+{
+  "domain": "https://yourname-server-deploy-dev1.herokuapp.com/",
+  "status": "running",
+  "port": 5000
+}
+
+Tests
+
+Unit Tests: npm run test
